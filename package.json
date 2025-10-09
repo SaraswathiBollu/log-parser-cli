@@ -15,17 +15,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@eslint/js": "^9.37.0",
+    "@eslint/js": "^8.57.1",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^17.0.45",
     "eslint": "^8.57.1",
-    "globals": "^16.4.0",
+    "globals": "^13.21.0",
     "jest": "^27.5.1",
     "jiti": "^2.6.1",
     "prettier": "^2.8.8",
     "ts-jest": "^27.1.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.0"
+    "typescript": "^5.2.2"
   }
 }

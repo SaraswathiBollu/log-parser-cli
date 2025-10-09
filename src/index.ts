@@ -12,6 +12,8 @@ try {
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const stats = parseLogFile(fileContent);
   console.log(JSON.stringify(stats, null, 2));
+  const outputFilePath = "sample/log_stats.json";
+  fs.writeFileSync(outputFilePath, JSON.stringify(stats, null, 2), "utf-8");
 } catch (err) {
   console.error(`Error: ${(err as Error).message}`);
   process.exit(1);

@@ -1,0 +1,8 @@
+{
+  "total": 4,
+  "levels": {
+    "info": 2,
+    "error": 1,
+    "warn": 1
+  }
+}

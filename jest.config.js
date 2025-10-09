@@ -4,10 +4,10 @@ export default {
   testMatch: ["**/__tests__/**/*.ts", "**/?(*.)+(test).ts"],
   globals: {
     "ts-jest": {
-      tsconfig: "tsconfig.test.json"
-    }
+      tsconfig: "tsconfig.test.json",
+    },
   },
   collectCoverage: true,
-  coverageDirectory: "coverage", 
-  coverageReporters: ["text", "lcov"]
+  coverageDirectory: "coverage",
+  coverageReporters: ["text", "lcov"],
 };
